@@ -11,7 +11,7 @@
 :root {
   --primary-text-color:rgb(54, 9, 9);
   --secondary-text-color: #000;
-  --accent-color: #2294ed;
+  --accent-color: #0091ff;
   --accent-color-dark: #1d69a3;
   --padding-inline-section: 20px;
 }
@@ -669,4 +669,76 @@ button {
 .dark-theme {
   background-color: #333;
   color: #fff;
+}
+
+/* SighIn Page */
+
+.sign-body{
+  background: rgb(238, 235, 235);
+  /* margin: auto; */
+  height:100%;
+}
+
+.form-container{
+  background:whitesmoke;
+  /* border: solid blue; */
+  width: 25rem;
+  /* margin-top: 14rem; */
+  margin: auto;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 10px;
+  margin-top: 13rem;
+}
+
+/* .form-container{
+  border: solid black;
+} */
+.form-container>form>h1{
+  text-align: center;
+  font-size: 25px;
+}
+/* .form-container>form{
+  border:  solid yellow;
+} */
+
+.form-container>form{
+  display:flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 10px;
+}
+
+.form-container>form>input{
+  border-radius: 3px;
+  border: 1px solid;
+}
+
+.message{
+  /* color: red; */
+  text-align: center;
+  font-size: small;
+}
+
+/* .container{
+  display: flex;
+  justify-content: center;
+  border: solid blue;
+} */
+
+
+/* signUp */
+.form-container>form>h2{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+.already-account{
+  text-align: center;
+  /* border: solid black; */
+  /* margin-top: -10px; */
+}
+#signUp{
+  text-align: center;
+  font-size: small;
 }
